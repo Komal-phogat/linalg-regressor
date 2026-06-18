@@ -1,7 +1,7 @@
 import pytest
 import numpy as np
-# from linalg_regressor.engine import ProjectionRegressor
-# from linalg_regressor.diagnostics import GeometricDiagnostics
+from linalg_regressor.engine import ProjectionRegressor
+from linalg_regressor.diagnostics import GeometricDiagnostics
 
 def test_mathematical_orthogonality():
     """Tests if the calculated error vector is always orthogonal to column space."""

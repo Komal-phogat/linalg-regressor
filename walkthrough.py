@@ -1,8 +1,10 @@
 import numpy as np
 # Assuming your files are organized in a local directory module structure:
-# from linalg_regressor.engine import ProjectionRegressor
-# from linalg_regressor.diagnostics import GeometricDiagnostics
-# from linalg_regressor.robust import RobustProjectionRegressor
+from linalg_regressor.engine import ProjectionRegressor
+from linalg_regressor.diagnostics import GeometricDiagnostics
+from linalg_regressor.robust import RobustProjectionRegressor
+
+
 
 if __name__ == "__main__":
     print("=== PART 1: VERIFYING PROFESSOR STRANG'S LECTURE EXAMPLE ===")
