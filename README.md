@@ -47,3 +47,28 @@ linalg_regressor/
 ├── walkthrough.py             # Strang's blackboard example verification
 ├── plot_projections.py        # Matplotlib visualization generator
 └── requirements.txt           # Package dependencies
+
+## 🛠️ Installation & Verification
+
+1. Clone this repository:
+   ```bash
+   git clone [https://github.com/Komal-phogat/linalg-regressor.git](https://github.com/Komal-phogat/linalg-regressor.git)
+   cd linalg-regressor
+
+## 🚀 Quick Start Commands
+
+Run these commands in your terminal to set up the environment, run the mathematical proofs, and verify the test coverage:
+
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Run Professor Strang's blackboard verification
+python walkthrough.py
+
+# 3. Execute the automated geometric test suite
+python -m pytest tests/
+
+# 4. Generate the outlier visualization plot
+python plot_projections.py
+
