@@ -1,4 +1,4 @@
-# Vector Space Regression Engine (MIT 18.06)
+# Vector Space Regression Engine
 
 An object-oriented linear regression engine built cleanly from scratch using pure NumPy. This project translates the fundamental vector-space proofs taught in **Gilbert Strang’s MIT 18.06 Lecture 16** into unit-testable software components, featuring a runtime geometric diagnostic suite and a robust RANSAC outlier estimator.
 
